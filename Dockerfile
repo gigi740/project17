@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From nginx:1.7
 
 # Maintainer 
-MAINTAINER "kserge2001@yahoo.fr" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+MAINTAINER "Ghislaine N" 
+COPY ./project1.war /usr/local/nginx/webapps
